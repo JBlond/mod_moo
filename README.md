@@ -7,6 +7,7 @@ Created by Gregg Smith for Mario
 ## Compiling on windows: ##
 
 x86
+
     del *.obj *.exp *.lib *.so *.*.man*
     SET APACHE=\Apache24
     cl /nologo /MD /W3 /O2 /D _WINDOWS /D WIN32 /D NDEBUG -I%APACHE%\include mod_moo2.c
@@ -14,6 +15,7 @@ x86
     MT -manifest mod_moo2.so.manifest  -outputresource:mod_moo2.so;2
 
 x84
+
     del *.obj *.exp *.lib *.so *.*.man*
     SET APACHE=\Apache24x64
     cl /nologo /MD /W3 /O2 /D _WINDOWS /D WIN32 /D WIN64 /D _WIN64 /D NDEBUG -I%APACHE%\include mod_moo2.c
