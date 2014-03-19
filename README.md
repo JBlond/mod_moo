@@ -2,6 +2,7 @@ mod_moo
 ================================
 
 Example apache module mod moo 2
+Created by Gregg Smith for Mario
 
 Compiling on windows:
 
