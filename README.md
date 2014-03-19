@@ -23,3 +23,7 @@ x84
     MT -manifest mod_moo2.so.manifest  -outputresource:mod_moo2.so;2
 
 The module binaries are compatible with the downloads from http://www.apachehaus.com
+
+## Compiling on Linux ##
+
+    apxs -cia mod_moo2.c
